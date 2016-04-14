@@ -22,7 +22,7 @@
 
             <div class="collapse navbar-collapse" id="doz-navbar-collapse">
                 <ul class="nav navbar-nav">
-                    
+                    <li><a href="#">View all</a></li>
                 </ul>
             </div>
         </div>
@@ -51,6 +51,8 @@
                 {!! Form::text('twiterId', null, ['class' => 'form-control']) !!}
                 {!! Form::label('facebookID', 'Facebook ID: ') !!}
                 {!! Form::text('facebookID', null, ['class' => 'form-control']) !!}
+                {!! Form::label('anniversary', 'Anniversary: ') !!}
+                {!! Form::date('anniversary', null, ['class' => 'form-control']) !!}
                 {!! Form::label('notes', 'Notes: ') !!}
                 {!! Form::textarea('notes', null, ['class' => 'form-control']) !!}
                 <hr/>
