@@ -13,3 +13,4 @@
 
 Route::get('/', 'CandidateController@index');
 Route::post('/create', ['as' => 'saveCandidate', 'uses' => 'CandidateController@save']);
+Route::get('/viewall', ['as' => 'listCandidates', 'uses' => 'CandidateController@listall']);
